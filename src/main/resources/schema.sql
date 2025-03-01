@@ -12,3 +12,9 @@ CREATE TABLE products (
     price DECIMAL(10,2),
     stock INTEGER
 );
+
+CREATE TABLE customer_products (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    customer_id INT,
+    product_id INT
+);
