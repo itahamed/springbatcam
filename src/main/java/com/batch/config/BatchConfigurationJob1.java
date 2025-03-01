@@ -21,6 +21,9 @@ import org.springframework.transaction.PlatformTransactionManager;
 
 import javax.sql.DataSource;
 
+/**
+ * Batch configuration for job1.
+ */
 @Configuration
 public class BatchConfigurationJob1 {
 
